@@ -238,7 +238,7 @@ class LoginViewController: UIViewController {
         /* 1. Set the parameters */
         let methodParameters = [
             "api_key": appDelegate.apiKey,
-            "session)id": session_id
+            "session_id": session_id
         ]
         
         /* 2. Build the URL */
